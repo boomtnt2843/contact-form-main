@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
+
+  <title>Frontend Mentor | Contact form</title>
+</head>
+<body>
+  <div class="main--container">
+    <div class="form--container">
+      <h1>Contact Us</h1>
+      <div class="info--name">
+        <div class="first--name">
+          <div class="header--topic">
+            <label>First Name</label>
+            <span class="required--text">*</span>
+          </div>
+          <input type="text" class="input--name">
+        </div>
+        <div class="last--name">
+          <div class="header--topic">
+            <label>Last Name</label>
+            <span class="required--text">*</span>
+          </div>
+          <input type="text" class="input--name">
+        </div>
+      </div>
+      <div class="info--email">
+        <div class="header--topic">
+          <label>Email Address</label>
+          <span class="required--text">*</span>
+        </div>
+        <input type="email" class="input--email">
+      </div>
+      <div class="info--query">
+        <div class="header--topic">
+          <label>Query Type</label>
+          <span class="required--text">*</span>
+        </div>
+        <div class="group--query">
+          <label class="choice--query">
+            <input type="radio" name="query">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="21" fill="none" viewBox="0 0 20 21"><path fill="#0C7D69" d="M10 .75a9.75 9.75 0 1 0 9.75 9.75A9.76 9.76 0 0 0 10 .75Zm0 18a8.25 8.25 0 1 1 8.25-8.25A8.26 8.26 0 0 1 10 18.75Zm5.25-8.25a5.25 5.25 0 1 1-10.499 0 5.25 5.25 0 0 1 10.499 0Z"/></svg>
+            <span class="choice--detail">General Enquiry</span>  
+          </label>
+          <label class="choice--query">
+            <input type="radio" name="query">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="21" fill="none" viewBox="0 0 20 21"><path fill="#0C7D69" d="M10 .75a9.75 9.75 0 1 0 9.75 9.75A9.76 9.76 0 0 0 10 .75Zm0 18a8.25 8.25 0 1 1 8.25-8.25A8.26 8.26 0 0 1 10 18.75Zm5.25-8.25a5.25 5.25 0 1 1-10.499 0 5.25 5.25 0 0 1 10.499 0Z"/></svg>
+            <span class="choice--detail">Support Request</span>  
+          </label>
+        </div>
+      </div>
+      <div class="info--message">
+        <div class="header--topic">
+          <label>Message</label>
+          <span class="required--text">*</span>
+        </div>
+        <textarea class="input--message"></textarea>
+      </div>
+      <div class="info--consent">
+        <label>
+          <input type="checkbox">
+          <span>I consent to being contacted by the team</span>
+          <span class="required--text">*</span>
+        </label>
+      </div>
+      <button class="btn--submit">Submit</button>
+    </div>
+  </div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+</body>
+</html>
